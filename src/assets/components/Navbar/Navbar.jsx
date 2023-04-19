@@ -13,29 +13,29 @@ function Navbar({black}) {
 
 	return (
 		<header>
-			<h3>ALÔ COMUNIDADES</h3>
+			<Link to="/"><h3>ALÔ COMUNIDADES</h3></Link>
 			<nav ref={navRef} >
 				<ul className="nav-ul">
 					<li>
-                    <Link to="/" onClick={showNavbar}>QUEM SOMOS</Link>
+                    <Link to="/sobre" onClick={showNavbar}>QUEM SOMOS</Link>
 					</li>
 					<li>
-                    <Link to="/" onClick={showNavbar}>COMUNIDADES</Link>
+                    <Link to="/comunidades" onClick={showNavbar}>COMUNIDADES</Link>
 					</li>
 					<li>
-                    <Link to="/" onClick={showNavbar}> PROJETOS</Link>
+                    <Link to="/projetos" onClick={showNavbar}>PROJETOS</Link>
 					</li>
 					<li>
-					<Link to="/" onClick={showNavbar}>NOTÍCIAS</Link>
+					<Link to="/noticias" onClick={showNavbar}>NOTÍCIAS</Link>
 					</li>
                     <li>
-                    <Link to="/" onClick={showNavbar}>IMPACTO SOCIAL</Link>
+                    <Link to="/impactosocial" onClick={showNavbar}>IMPACTO SOCIAL</Link>
                     </li>
                     <li>
-                    <Link to="/" onClick={showNavbar}> CONTATO</Link>
+                    <Link to="/contato" onClick={showNavbar}>CONTATO</Link>
                     </li>
                     <li>
-                    <FaUser />
+                    <Link to="/login"> <FaUser /> </Link>
                     </li>
                     <li>
                     <button className="doar">DOAR AGORA</button>
