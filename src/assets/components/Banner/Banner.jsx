@@ -1,3 +1,4 @@
+import Bairros from '../Bairros'
 import '../Banner/Banner.css'
 import Cards from '../Cards'
 
@@ -18,6 +19,7 @@ const Banner = () => {
                 <section className="moduleContent">
                     <div className="container">
                         <Cards />
+                        <Bairros />
                     </div>
                 </section>
         </div>
