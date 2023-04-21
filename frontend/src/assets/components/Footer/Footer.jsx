@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
       <div className="box-footer">
         <div>
           <h2>Nossa Filosofia</h2>
-          <ul>
+          <ul className="box-collum">
             <a href="">Seja nosso parceiro</a>
             <a href="">Faça sua doação</a>
             <a href="">Nossa equipe</a>
@@ -16,7 +17,7 @@ function Footer() {
         </div>
         <div>
           <h2>Sobre Nós</h2>
-          <ul>
+          <ul className="box-collum">
             <a href="">Sobre</a>
             <a href="">Impacto social</a>
             <a href="">Mídia e imprensa</a>
@@ -26,10 +27,9 @@ function Footer() {
         <div>
           <h2>Nossas Redes</h2>
           <ul>
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-            <a href="">Tik Tok</a>
-            <a href="">Linkdin</a>
+            <i className="icon"><FaFacebook/></i>
+            <i className="icon"><FaTwitter/></i>
+            <i className="icon"><FaInstagram/></i>
           </ul>
         </div>
         <div>
