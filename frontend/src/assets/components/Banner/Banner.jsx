@@ -11,13 +11,6 @@ const Banner = () => {
         <h1>INOVAÇÃO NA FAVELA & UNIÃO</h1>
         <button className="lerMaisBtn">LER +</button>
       </section>
-
-      <section className="moduleContent">
-        <div className="container">
-          <Cards />
-          <Bairros />
-        </div>
-      </section>
     </div>
   );
 };

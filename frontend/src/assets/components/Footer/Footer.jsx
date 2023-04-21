@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <h1>Alô Comunidades</h1>
-      <div>
+      <div className="box-footer">
         <div>
           <h2>Nossa Filosofia</h2>
           <ul>
@@ -41,7 +41,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div>
+      <div className="box-copy">
         <p> &copy; Desenvolvidos pela equipe dos Programadores Cariocas</p>
       </div>
     </footer>

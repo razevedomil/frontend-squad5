@@ -1,10 +1,15 @@
-import "../Banner/Parallax.css";
+import Bairros from "../Bairros";
+import Cards from "../Cards";
+import "./Parallax.css";
 
 const MyParallax = () => {
   return (
-    <div className="wrapper">
-      <main></main>
-    </div>
+    <main className="moduleContent">
+      <div className="module parallax parallax-1">
+        <Cards />
+        <Bairros />
+      </div>
+    </main>
   );
 };
 
