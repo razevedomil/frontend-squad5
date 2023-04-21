@@ -38,7 +38,7 @@ function Navbar({black}) {
                     <Link to="/login"> <FaUser /> </Link>
                     </li>
                     <li>
-                    <button className="doar">DOAR AGORA</button>
+                    <button className="doarBtn">DOAR AGORA</button>
                     </li>
 				</ul>
 				<button

@@ -19,6 +19,7 @@ import Login from './pages/Login.jsx'
       <Switch>
         <Route exact path="/">
           <Home />
+          
         </Route>
 
 {/* ===== As rotas relacionadas as imports de cima também estão comentadas para evitar erro.

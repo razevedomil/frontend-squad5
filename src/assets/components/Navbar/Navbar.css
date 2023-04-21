@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-	--detailsBlue:#00B3FD;
+	--detailsBlue:#3990FB;
     --detaisYellow:#EFC900;
     --titleColor:#676666;
     font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
 
@@ -13,7 +14,7 @@ header {
 	display: flex;
 	position: fixed;
 	align-items: center;
-    justify-content: space-between;
+	justify-content: space-between;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -52,6 +53,7 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 li {
@@ -70,12 +72,14 @@ h3 {
     font-weight: 100;
 }
 
-.doar {
+.doarBtn {
     padding: 10px 30px;
     margin: 20px;
     border-radius: 20px;
     background-color: var(--detailsBlue);
     color:#fff;
+	display: flex;
+	border: none;
 }
 
 @media only screen and (max-width: 1024px) {

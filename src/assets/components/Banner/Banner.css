@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
-
-}
-
 section.module.parallax {
     display: flex;
     flex-direction: column;
@@ -73,6 +65,24 @@ section.module.parallax h4 {
 
 }
 
+section.moduleContent {
+    background-color: #FFFF;
+    height: 500px;
+    padding: 50px 10px;
+    
+}
+
+
+.container {
+    color: var(--titleColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
 .overlay {
     height: 500px;
     width: 180px;
@@ -82,7 +92,7 @@ section.module.parallax h4 {
     left: 25.5%;
 }
 
-.lerMais {
+.lerMaisBtn {
     z-index: 1;
     padding: 15px 20px;
     width: 155px;
@@ -92,6 +102,7 @@ section.module.parallax h4 {
     margin-top: 30px;
     color: #fff;
     font-weight: bold;
+    border: none;
 }
 
 
@@ -119,16 +130,16 @@ section.module.parallax h4 {
 
     }
 
-    
-.overlay {
-    height: 400px;
-    width: 90px;
-    left: 2%;
-}
 
-.lerMais {
-width:130px;
-right:25%;
-}
+    .overlay {
+        height: 400px;
+        width: 90px;
+        left: 2%;
+    }
+
+    .lerMais {
+        width: 130px;
+        right: 25%;
+    }
 
 }
